@@ -1,0 +1,116 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121c3a; /* Темный, глубокий синий фон */
+    color: #e2e6f0; /* Светлый текст */
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Заголовок */
+header {
+    background-color: #0b1728; /* Очень темный синий фон */
+    color: #81a4b7; /* Пастельный голубой цвет для текста */
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #a3b0b8;
+}
+
+/* Шаги */
+main {
+    background-color: #1e2a47; /* Темный, глубокий синий */
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #a0b7c7; /* Светлый серо-голубой для заголовков */
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+ol li {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+ol li code {
+    font-size: 1.1em;
+    background-color: #3c4b75; /* Темно-синий фон для кода */
+    color: #e2e6f0;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+/* Секция с видео */
+.video-tutorial {
+    background-color: #1e2a47; /* Тот же темный фон для видео */
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.video-tutorial h2 {
+    color: #a0b7c7; /* Светлый серо-голубой для заголовков */
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.video-tutorial p {
+    color: #ccc; /* Светлый текст для описания */
+    margin-bottom: 20px;
+}
+
+.video-container {
+    max-width: 100%;
+    background-color: #121c3a; /* Очень темный фон */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+/* Футер */
+footer {
+    background-color: #0b1728; /* Темный синий для футера */
+    color: #e2e6f0;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 8px;
+}
